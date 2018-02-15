@@ -1,0 +1,36 @@
+.platform{
+	width:600px;
+	height:600px;
+	margin:0 auto;
+
+}
+
+/*Елементы меню*/
+.naw{
+	width:220px;
+	height:220px;
+	background:#092e68;
+    
+    padding-left: 0px;
+
+	-webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+}
+.element_naw{
+	width:220px;
+    cursor:pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 25px;
+    color:#fff;
+	background:#092e68;
+	list-style: none;
+	font-family: 'Rajdhani', sans-serif;
+	text-align:center;
+}
+.element_naw:hover{
+	transition-duration: 3s;
+	border-right:2px solid yellow;
+	color:yellow;
+}

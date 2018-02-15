@@ -1,22 +1,14 @@
-.platform{
-	width:600px;
-	height:600px;
-	margin:0 auto;
-
-}
 
 /*Елементы меню*/
 .naw{
-	width:220px;
+	width:300px;
 	height:220px;
-	background:#092e68;
-    
+	background:#a8120a;
     padding-left: 0px;
-
-	-webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
-}
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    }
 .element_naw{
 	width:220px;
     cursor:pointer;
@@ -24,13 +16,14 @@ box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
     padding-bottom: 15px;
     height: 25px;
     color:#fff;
-	background:#092e68;
+	background:#a8120a;
 	list-style: none;
 	font-family: 'Rajdhani', sans-serif;
 	text-align:center;
 }
 .element_naw:hover{
+	width:250px;
 	transition-duration: 3s;
-	border-right:2px solid yellow;
-	color:yellow;
+	padding-left:15px;
+	color:#fff;
 }
